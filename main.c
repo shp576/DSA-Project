@@ -5,28 +5,48 @@
 #include <conio.h>
 #include <windows.h>
 
-int i, j, main_exit;
+struct person{
+  char name[50];
+  char address[50];
+  char father_name[50];
+  int mobile_no;
+  char gender[20];
+  char email[100];
+  char citizen[100]
+};
+
 void menu();
-struct date{
-    int day;
-    int month;
-    int year;
-};
-
-struct {
-    char name[60];
-    int acc_no, age, phone_no;
-    char address[60];
-    char citizenship[15];
-    char acc_type[25];
-    float amt;
-    struct date dob;
-    struct date deposit;
-    struct date withdraw;
-};
-
+void got();
+void start();
+void back();
+void add_record();
+void view_record();
+void modifyrecord();
+void delete_record();
+void search_record();
 
 int main(void)
 {
+  // system("color #FF0000");
+  start();
   return 0;
+}
+
+void back()
+{
+  start();
+}
+
+void start()
+{
+  menu();
+}
+
+void menu(){
+  system("cls");
+  printf("\t\tMy PhoneBook");
+  printf("\n\n\t\t Main Menu");
+  printf("\n\n Choose the Option According to ur choice");
+  printf("\n\n1.Add new Contact \n2.View Contact list \n3.Edit Contact List \n4.Search Contact \n5.Delete Contact \n6.Exit My PhoneBook");
+
 }
