@@ -27,20 +27,6 @@ void search_record();
 
 int main(void)
 {
-  // system("color #FF0000");
-  start();
-  return 0;
-}
-
-void back()
-{
-  start();
-}
-
-void start()
-{
-  menu();
-}
 
 void menu(){
   system("cls");
