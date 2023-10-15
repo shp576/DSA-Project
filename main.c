@@ -48,5 +48,4 @@ void menu(){
   printf("\n\n\t\t Main Menu");
   printf("\n\n Choose the Option According to ur choice");
   printf("\n\n1.Add new Contact \n2.View Contact list \n3.Edit Contact List \n4.Search Contact \n5.Delete Contact \n6.Exit My PhoneBook");
-
 }
