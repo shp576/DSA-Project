@@ -4,6 +4,7 @@
 #include <string.h>
 #include <conio.h>
 #include <windows.h>
+#include <gtk/gtk.h>
 
 struct person{
   char name[50];
