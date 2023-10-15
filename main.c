@@ -8,11 +8,11 @@
 struct person{
   char name[50];
   char address[50];
-  char father_name[50];
-  int mobile_no;
-  char gender[20];
+  // char father_name[50];
+  long int mobile_no;
+  // char gender[20];
   char email[100];
-  char citizen[100]
+  // char citizen[100]
 };
 
 void menu();
